@@ -15,8 +15,8 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Enable Face Unlock
 TARGET_FACE_UNLOCK_SUPPORT := YES
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common stuff.
+$(call inherit-product, vendor/descendant/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := descendant_onclite
