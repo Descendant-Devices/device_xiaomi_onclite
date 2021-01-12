@@ -34,6 +34,10 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno506
 
 TARGET_BOARD_SUFFIX := _64
 
+# Source-specific flags
+PRODUCT_BOARD_PLATFORM := msm8953
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Build broken
 BUILD_BROKEN_DUP_RULES := true
 
